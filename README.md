@@ -1,0 +1,2 @@
+# ExmentAITranslator
+Google Geminiを使ったAI翻訳機能をExmentに実装します
