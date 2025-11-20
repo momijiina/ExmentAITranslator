@@ -1,0 +1,26 @@
+{
+    "plugin_name": "AITranslator",
+    "uuid": "b2c3d4e5-6789-01ab-cdef-234567890abc",
+    "plugin_view_name": "AI翻訳",
+    "description": "Google Gemini AIを使用したテキスト翻訳システム",
+    "author": "momijiina",
+    "version": "1.0.0",
+    "plugin_type": "page",
+    "route": [
+        {
+            "uri": "",
+            "method": [
+                "get",
+                "post"
+            ],
+            "function": "index"
+        },
+        {
+            "uri": "translate",
+            "method": [
+                "post"
+            ],
+            "function": "translate"
+        }
+    ]
+}
