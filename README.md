@@ -3,7 +3,7 @@ Google Gemini AIを使用した高品質なテキスト翻訳プラグインで�
 <img width="1132" height="618" alt="trans" src="https://github.com/user-attachments/assets/ce42f106-29ad-4051-88fa-dadb49d9aa9b" />
 
 ## 機能
-- **リアルタイム翻訳**: テキストを入力して即座に翻訳
+- **翻訳**: テキストを入力して翻訳
 - **多言語対応**: 日本語、英語、中国語、韓国語など12言語に対応
 - **カスタム指示**: 翻訳スタイルを細かく指定可能
 - **コピー機能**: ワンクリックで翻訳結果をクリップボードにコピー
@@ -40,8 +40,20 @@ Google Gemini AIを使用した高品質なテキスト翻訳プラグインで�
 - 「フォーマルな敬語で」
 - 「カジュアルな口調で」
 - 「ビジネス文書として」
+<img width="1190" height="697" alt="custum" src="https://github.com/user-attachments/assets/25bd8d40-658a-4bb3-8c7c-0635ef78ab3c" />
+
 
 ## API利用制限エラーが表示される
 - 数分待ってから再度お試しください
 - 別のAPIキーを使用してください
 - Google AI Studioで課金プランをご確認ください
+
+## その他
+#### 長い文字もテストしてますがリクエストを分割して送ってますので注意
+<img width="1145" height="715" alt="long1" src="https://github.com/user-attachments/assets/f0eb842a-5983-4ba3-8a93-059daa3c2353" />
+
+#### 翻訳に少し時間がかかります。
+<img width="1132" height="760" alt="long2" src="https://github.com/user-attachments/assets/e1cf528c-25ee-44d3-8cda-b92624653372" />
+
+
+
