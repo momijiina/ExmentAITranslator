@@ -322,7 +322,7 @@ class Plugin extends PluginPageBase
 <body>
     <div class="container">
         <h1>🌐 AI翻訳システム</h1>
-        <p class="subtitle">Google Gemini AIを使用した高品質な翻訳（最大10,000文字、3,000文字以上は自動分割</p>
+        <p class="subtitle">Google Gemini AIを使用した高品質な翻訳（最大10,000文字、3,000文字以上は自動分割）(テスト中のシステムです長いとエラーになります。)</p>
         
         {$warningHtml}
 
@@ -435,8 +435,9 @@ class Plugin extends PluginPageBase
                 return;
             }
             
-            // 言語検出：日本語の文字（ひらがな、カタカナ、漢字）が含まれているか
-            const hasJapanese = /[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/.test(sourceText);
+            // 言語検出：ひらがなまたはカタカナが含まれている場合のみ日本語と判定
+            // （漢字のみの場合は中国語の可能性があるため除外）
+            const hasJapanese = /[\u3040-\u309F\u30A0-\u30FF]/.test(sourceText);
             if (hasJapanese && targetLanguage === '日本語') {
                 showAlert('danger', '日本語のテキストを日本語に翻訳しようとしています。<br>別の言語を選択してください。');
                 return;
