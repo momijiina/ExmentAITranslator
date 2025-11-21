@@ -4,7 +4,7 @@
     "plugin_view_name": "AI翻訳",
     "description": "Google Gemini AIを使用したテキスト翻訳システム",
     "author": "momijiina",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "plugin_type": "page",
     "route": [
         {
