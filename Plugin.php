@@ -322,7 +322,7 @@ class Plugin extends PluginPageBase
 <body>
     <div class="container">
         <h1>🌐 AI翻訳システム</h1>
-        <p class="subtitle">Google Gemini AIを使用した高品質な翻訳（最大10,000文字、3,000文字以上は自動分割）(テスト中のシステムです長いとエラーになります。)</p>
+        <p class="subtitle">Google Gemini AIを使用した高品質な翻訳（最大10,000文字、3,000文字以上は自動分割）</p>
         
         {$warningHtml}
 
