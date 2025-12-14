@@ -1,3 +1,4 @@
+GoogleのAPI制限が厳しくなりすぎたので無料だとまともに使えないですね
 # Exment AI翻訳システム
 Google Gemini AIを使用した高品質なテキスト翻訳プラグインです。
 <img width="1132" height="618" alt="trans" src="https://github.com/user-attachments/assets/ce42f106-29ad-4051-88fa-dadb49d9aa9b" />
